@@ -8,8 +8,7 @@ import RestaurantItems, {
 	localRestaurants,
 } from '../components/RestaurantItems';
 
-const YELP_API_KEY =
-	'bdRJutLhFAQJ36t7b89CWjHFBU4OKzjt9wvZzcY-nkgmvTqlNMjZWV1eG7iBQ9R74SyfxRg9LWnBAkZY06BtAZAe4d2dfX-2vuX8a1l5V7foctHfX9UKEyoM5ts3YXYx';
+const YELP_API_KEY = process.env.YELP_API_KEY;
 
 export default function Home() {
 	const [restaurantData, setRestaurantData] = useState(localRestaurants);
