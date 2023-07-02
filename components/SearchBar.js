@@ -7,7 +7,7 @@ export default function SearchBar() {
 	return (
 		<View style={{ flexDirection: 'row', marginTop: 15 }}>
 			<GooglePlacesAutocomplete
-				placeholder='Search'
+				placeholder='Search Uber Eats'
 				styles={{
 					textInput: {
 						backgroundColor: '#eee',
